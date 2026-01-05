@@ -1,0 +1,276 @@
+html {
+    scroll-behavior: smooth;
+}
+/* Footer Styles */
+.footer {
+    background: #111;
+    color: #fff;
+    padding: 40px 0 0 0;
+    font-family: "Lato", sans-serif;
+    border-top: 2px solid gold;
+    margin-top: 0;
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px 20px 40px;
+    gap: 20px;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: gold;
+}
+.footer-logo img {
+    width: 40px;
+    height: auto;
+    filter: brightness(1.2) drop-shadow(0 0 2px gold);
+}
+.footer-links {
+    display: flex;
+    gap: 24px;
+}
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+    font-family: "Source Code Pro", monospace;
+}
+.footer-links a:hover {
+    color: gold;
+}
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Source Code Pro", monospace;
+}
+.footer-social {
+    display: flex;
+    gap: 16px;
+}
+.footer-social a svg {
+    vertical-align: middle;
+    transition: stroke 0.3s;
+}
+.footer-social a:hover svg {
+    stroke: #fff;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 16px 0 8px 0;
+    color: #aaa;
+    font-size: 1rem;
+    border-top: 1px solid #222;
+    background: #111;
+    font-family: "Lato", sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/assets/images/home.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .text {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 130px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.text p {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-style: normal;
+    color: rgb(217, 85, 93);
+    font-size: 14px;
+}
+
+.links {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    display: flex;
+    gap: 20px;
+    width: fit-content;
+    margin: 0;
+    align-self: flex-end;
+    z-index: 2;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    font-family: "source code pro", monospace;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.links ul li a:hover {
+    color: rgb(217, 85, 93);
+}
+
+.logo {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    width: fit-content;
+    height: auto;
+    z-index: 1000;
+
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+}
+
+.second {
+    margin: 0;
+    width: 100%;
+    height: 300vh;
+    background-color: black;
+    display: flex;
+    position: relative;
+}
+
+.second .info-one h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 70px;
+    margin: 0;
+    padding-top: 50px;
+
+}
+.info-second h2{
+    font-family: "Lato", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 70px;
+    margin: 0;
+    padding-top: 50px;
+}
+.info-third h2{
+    font-family: "Lato", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 70px;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.info-one p {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.info-second p{
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    line-height: 30px;
+}
+.info-third p{
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.info-container {
+    max-width: 50%;
+    width: 50vw;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 60px; */
+}
+.info-one, .info-second, .info-third {
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    right: 0;
+    background: transparent;
+    z-index: 1;
+}
+.image img{
+    height: auto;
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+.info-third .first-child{
+    font-size: 20px;
+    color: red;
+}
